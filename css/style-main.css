@@ -544,7 +544,10 @@ height: 170px;
     margin-right: 100px;
 }
 
-.prices-block_item {
+.prices-block_item-complex,
+.prices-block_item-hair,
+.prices-block_item-study,
+.prices-block_item-brows{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -564,7 +567,10 @@ height: 170px;
 }
 
 
-.prices-block_item.li_active {
+.prices-block_item-complex.li_active,
+.prices-block_item-hair.li_active,
+.prices-block_item-study.li_active,
+.prices-block_item-brows.li_active  {
     color: #FFFFFF;
     border: 1px solid #013328;
     border-radius: 0 20px 20px 0;
@@ -575,11 +581,17 @@ height: 170px;
     width: 1150px;
 }
 
-.prices-block_right-item {
+.prices-block_right-item-complex,
+.prices-block_right-item-hair,
+.prices-block_right-item-study,
+.prices-block_right-item-brows {
     display: none;
 }
 
-.prices-block_right-item.prices-block_right-active {
+.prices-block_right-item-complex.prices-block_right-active,
+.prices-block_right-item-hair.prices-block_right-active,
+.prices-block_right-item-study.prices-block_right-active,
+.prices-block_right-item-brows.prices-block_right-active{
     display: flex;
 }
 
