@@ -162,10 +162,6 @@
     margin-right: calc(15px + (100 - 15)*((100vw - 320px) / (1920 - 320)));
 }
 
-.prices-block_item {
-    width: 250px;
-    height: 60px;
-}
 .prices-block_right {
     width: 1150px;
     width: calc(290px + (1150 - 290)*((100vw - 320px) / (1920 - 320)));
