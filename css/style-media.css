@@ -522,7 +522,11 @@ height: auto;
         width: calc(290px + (450 - 290)*((100vw - 320px) / (533 - 320)));
         height: calc(350px + (600 - 350)*((100vw - 320px) / (533 - 320)));  
     }
-    
+    .prices-block.prices-block_active,
+    .prices-block{
+        width:100%;
+    margin:0;
+}
 }
 
 @media only screen and (max-width: 450px) {
@@ -533,11 +537,6 @@ height: auto;
 margin-right: 15px;
 margin-left: 15px;
     }
-    .prices-block.prices-block_active,
-    .prices-block{
-        width:100%;
-    margin:0;
-}
 }
 
 @media only screen and (max-width: 360px) {
