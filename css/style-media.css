@@ -533,14 +533,15 @@ height: auto;
 margin-right: 15px;
 margin-left: 15px;
     }
-}
-
-@media only screen and (max-width: 360px) {
-    .prices-block,
-    .prices-block.prices-block_active{
+    .prices-block.prices-block_active,
+    .prices-block{
         width:100%;
     margin:0;
 }
+}
+
+@media only screen and (max-width: 360px) {
+
 }
 
 @media only screen and (max-width: 320px) {}
