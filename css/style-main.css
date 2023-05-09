@@ -137,26 +137,27 @@
     transition: 0.4s;
 }
 
-.burger-menu.open-menu {
-    display: flex;
-    right: 0;
-}
+
 
 .burger-menu {
     display: none;
-    flex-direction: column;
+    
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: #FFF;
-    width: 320px;
-    height: 579px;
+    background-color: #E3DCD2;
+    width: 280px;
+    height: auto;
     right: -100%;
-    -webkit-transition: all 0.7s ease;
-    transition: all 0.7s ease;
+    transition: all 0.8s ease;
     z-index: 70;
 }
-
+.burger-menu.open-menu {
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    transition: all 0.8s ease;
+}
 .burger-menu__items {
     margin: 15px 0 0 41px;
 }
@@ -176,6 +177,14 @@
     font-size: 14px;
     line-height: 170%;
     color: #013328;
+}
+.burger-menu_button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.burger-menu_button a{
+    color: #FFF;
 }
 
 .welcome {
@@ -436,8 +445,16 @@
 .prices-icons {
     display: flex;
     justify-content: space-between;
-    width: 1520px;
+    width: 1400px;
     margin: 0 auto 50px;
+}
+.price-icons_item{
+    margin: 30px 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100px;
+height: 170px;
 }
 
 .price-icon_container {
@@ -471,15 +488,23 @@
 
 .price-icon.icon-active {
     background-color: #c48561;
-    /* border:2px solid #c48561 ; */
 }
+/* .prices-block.prices-block_active .prices-block_item:first-child{
+    color: #FFFFFF;
+    border: 1px solid #013328;
+    border-radius: 0 20px 20px 0;
+    background-color: #013328;
+} */
 
-.price-icon.icon-active img:first-child {
+/* .price-icon.icon-active img:first-child {
     display: none;
-}
+} */
 
 .price-icon.icon-active img:last-child {
     display: block;
+}
+.price-icon.icon-active img:first-child{
+    display: none;
 }
 
 .price-icon_title {
@@ -498,17 +523,6 @@
     margin: 0 auto;
 }
 
-/* поміняти */
-.prices-block:first-child {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1400px;
-    height: 450px;
-    margin: 0 auto;
-}
-
-/*  */
 .prices-block {
     display: none;
     width: 1400px;
@@ -517,7 +531,7 @@
     margin: 0 auto;
 }
 
-.prices-block .prices-block_active {
+.prices-block.prices-block_active {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -549,6 +563,7 @@
 
 }
 
+
 .prices-block_item.li_active {
     color: #FFFFFF;
     border: 1px solid #013328;
@@ -568,17 +583,11 @@
     display: flex;
 }
 
-/* поміняти */
-.prices-block_right-item:first-child {
-    display: flex;
-}
-
-/*  */
 .prices-block_right-item-photo {
     width: 400px;
     height: 400px;
     
-    margin-right: 150px;
+    margin-right: 100px;
     overflow: hidden;
     position: relative;
 }
@@ -645,6 +654,7 @@
     font-size: 45px;
     line-height: 170%;
     color: #013328;
+    text-align: center;
     margin-bottom: 50px;
 }
 
@@ -692,7 +702,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 30px;
 }
 
 .gallery-slider .slick-arrow {
@@ -733,7 +742,7 @@
 }
 
 .testimonials {
-    width: 100%;
+    max-width: 1920px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -752,7 +761,7 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #CC8B65;
-    margin-bottom: 30px;
+    margin:0 15px 30px;
 }
 
 .testimonials-title {
@@ -762,7 +771,7 @@
     font-size: 45px;
     line-height: 170%;
     color: #013328;
-    margin-bottom: 50px;
+    margin:0 15px 50px;
 }
 
 .testimonials-slider_bg{
@@ -773,13 +782,16 @@
     justify-content: center;
     align-items: center;
 }
-.testimonials-slider{
-    width: 1920px;
+.testimonials-slider {
+    width: 1520px;
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: center; */
 }
-.testimonials-slider_item .slick-slide {
-    width: 400px;
-    margin: 0 290px;
-}
+.testimonials-slider_item.slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
 
 .testimonials-slider .slick-arrow {
     display: none;
@@ -819,21 +831,26 @@
     border-radius: 2px;
 }
 
-.testimonials-slider_item {
-    width: 400px;
+.testimonials-slider_item.slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width:400px;
+  
+}
+.testimonials-slider_item-content{
+    width:400px;
     height: 500px;
-    margin:0 279px;
+    margin:0 150px;
     background: #FFF;
     border:1px solid #013328;
     border-radius: 8px;
-}
-.testimonials-slider_item-content{
-    width: 400px;
-    height: 500px;
+    margin:0 auto;
 }
 
 .testimonials-slider_item-text img{
     flex: 1 1 auto;
+    width: inherit;
     height: 430px;
 }
 
@@ -875,8 +892,8 @@ color: #FFFFFF;
 }
 
 
-.contacts-left_map {
-    width: 350px;
+.contacts-left_map iframe{
+    width: 550px;
     height: 350px;
 }
 
@@ -929,4 +946,10 @@ color: #FFFFFF;
 .footer-contacts_social {
     display: flex;
     margin-right: 260px;
+}
+.footer-contacts_social li{
+    margin-right: 30px;
+}
+.footer-contacts_social li:last-child{
+    margin-right: 0;
 }
