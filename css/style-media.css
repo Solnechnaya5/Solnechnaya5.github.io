@@ -536,6 +536,7 @@ margin-left: 15px;
 }
 
 @media only screen and (max-width: 360px) {
+    .prices-block,
     .prices-block.prices-block_active{
         width:100%;
     margin:0;
