@@ -8,10 +8,7 @@
     overflow: hidden;
     background-color: #FFFF;
 }
-.main-btn_style a:hover,
-.services-column-button.main-btn_style a:hover{
-    background-color: #cc8b6591;
-}
+
 .header-page {
     width: auto;
     height: 90px;
@@ -52,16 +49,14 @@
 }
 
 .header-menu_item a {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
     line-height: 170%;
-    color: #100C0D;
+    color: #013328;
 }
-.header-menu_item a:hover{
-    font-weight: 500;
-}
+
 .header-menu_button {}
 
 .main-btn_style a {
@@ -70,15 +65,15 @@
     align-items: center;
     width: 200px;
     height: 50px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 14px;
     line-height: 125%;
     text-transform: uppercase;
-    color: #100C0D;
+    color: #FFFFFF;
     border-radius: 8px;
-    background-color: #CC8B65;
+    background-color: #013328;
 }
 
 .burger-menu-icon {
@@ -150,7 +145,7 @@
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: #FFFFFF;
+    background-color: #E3DCD2;
     width: 280px;
     height: auto;
     right: -100%;
@@ -176,12 +171,12 @@
 }
 
 .burger-menu__item a {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
     line-height: 170%;
-    color: #100C0D;
+    color: #013328;
 }
 .burger-menu_button{
     display: flex;
@@ -222,12 +217,12 @@
 }
 
 .welcome-text h1 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 40px;
     line-height: 170%;
-    color: #100C0D;
+    color: #013328;
 }
 
 .welcome-button a {
@@ -238,13 +233,14 @@
 .welcome-right {
     width: 960px;
     height: 925px;
-    background-color: #cc8b6591;
+    background-color: #013328;
     position: relative;
 }
 
 .welcome-right_frame {
     width: 450px;
     height: 700px;
+    background-color: #013328;
     border-top: 10px solid #FFF;
     border-right: 10px solid #FFF;
     border-bottom: 10px solid #FFF;
@@ -272,7 +268,7 @@
     display: flex;
     margin: 0 auto 150px;
     height: 925px;
-    background-color: #FFFFFF;
+    background-color: #E3DCD2;
 }
 
 .about-us_left {
@@ -288,9 +284,9 @@
 }
 
 .about-us_sub-title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 20px;
     line-height: 154.5%;
     display: flex;
@@ -302,19 +298,19 @@
 }
 
 .about-us_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 45px;
     line-height: 170%;
-    color: #100C0D;
+    color: #013328;
     margin-bottom: 30px;
 }
 
 .about-us_text {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
     line-height: 165%;
     color: #100C0D;
@@ -329,7 +325,7 @@
 .about-us_right-caramel {
     width: 450px;
     height: 700px;
-    background-color: #cc8b6591;
+    background-color: #CC8B65;
     position: absolute;
     z-index: 30;
     top: 100px;
@@ -359,9 +355,9 @@
 }
 
 .services_sub-title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 20px;
     line-height: 154.5%;
     display: flex;
@@ -401,9 +397,9 @@
 }
 
 .services-column_content h4 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 18px;
     line-height: 154.5%;
     text-align: center;
@@ -413,9 +409,9 @@
 }
 
 .services-column_content p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     line-height: 154.5%;
     text-align: center;
@@ -437,12 +433,12 @@
 }
 
 .prices h3 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 45px;
     line-height: 170%;
-    color: #100C0D;
+    color: #013328;
     margin-bottom: 50px;
 }
 
@@ -480,9 +476,7 @@ height: 170px;
     border: 2px solid #c48561;
     margin-bottom: 20px;
 }
-.price-icon:hover{
-    box-shadow: 3px -3px 7px 3px #cc8b6591;
-}
+
 .price-icon img {
     height: 50px;
     width: 50px;
@@ -495,6 +489,16 @@ height: 170px;
 .price-icon.icon-active {
     background-color: #c48561;
 }
+/* .prices-block.prices-block_active .prices-block_item:first-child{
+    color: #FFFFFF;
+    border: 1px solid #013328;
+    border-radius: 0 20px 20px 0;
+    background-color: #013328;
+} */
+
+/* .price-icon.icon-active img:first-child {
+    display: none;
+} */
 
 .price-icon.icon-active img:last-child {
     display: block;
@@ -504,9 +508,9 @@ height: 170px;
 }
 
 .price-icon_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     line-height: 154.5%;
     text-align: center;
@@ -523,7 +527,7 @@ height: 170px;
     display: none;
     width: 1400px;
     height: 450px;
-    background-color: #FFFFFF;
+    background-color: #E3DCD2;
     margin: 0 auto;
 }
 
@@ -549,34 +553,28 @@ height: 170px;
     align-items: center;
     width: 250px;
     height: 60px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 14px;
     line-height: 125%;
-    color: #100C0D;
-    border: 1px solid #CC8B65;
+    color: #013328;
+    border: 1px solid #013328;
     border-radius: 0 20px 20px 0;
     background-color: #FFFF;
     margin-bottom: 15px;
 
 }
-.prices-block_item-complex:hover,
-.prices-block_item-hair:hover,
-.prices-block_item-:hover,
-.prices-block_item-brows:hover{
-    box-shadow: 3px -3px 9px 1px #cc8b6591;
-}
+
 
 .prices-block_item-complex.li_active,
 .prices-block_item-hair.li_active,
 .prices-block_item-study.li_active,
 .prices-block_item-brows.li_active  {
-    color: #100C0D;
-    border: 1px solid #CC8B65;
+    color: #FFFFFF;
+    border: 1px solid #013328;
     border-radius: 0 20px 20px 0;
-    background-color: #CC8B65;
-    box-shadow: none;
+    background-color: #013328;
 }
 
 .prices-block_right {
@@ -623,9 +621,9 @@ height: 170px;
 }
 
 .prices-block_right-item-pricelist li {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
     line-height: 154.5%;
     text-align: center;
@@ -648,9 +646,9 @@ height: 170px;
 }
 
 .gallery-subtitle {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 20px;
     line-height: 154.5%;
     display: flex;
@@ -662,12 +660,12 @@ height: 170px;
 }
 
 .gallery-title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 45px;
     line-height: 170%;
-    color: #100C0D;;
+    color: #013328;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -742,7 +740,7 @@ height: 170px;
     margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #CC8B65;
+    background-color: #013328;
     background-clip: padding-box;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
@@ -751,7 +749,7 @@ height: 170px;
 .gallery-slider .slick-dots li.slick-active button {
     width: 34px;
     height: 3px;
-    background-color: #CC8B65;
+    background-color: #013328;
     border-radius: 2px;
 }
 
@@ -765,9 +763,9 @@ height: 170px;
 }
 
 .testimonials-subtitle {
-    font-family: 'Inter', sans-serif;;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 20px;
     line-height: 154.5%;
     display: flex;
@@ -779,19 +777,19 @@ height: 170px;
 }
 
 .testimonials-title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 45px;
     line-height: 170%;
-    color: #100C0D;;
+    color: #013328;
     margin:0 15px 50px;
 }
 
 .testimonials-slider_bg{
     width: 100%;
     height: 700px;
-    background-color: #FFFFFF;
+    background-color: #E3DCD2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -832,7 +830,7 @@ height: 170px;
     margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #CC8B65;
+    background-color: #013328;
     background-clip: padding-box;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
@@ -841,7 +839,7 @@ height: 170px;
 .testimonials-slider .slick-dots li.slick-active button {
     width: 34px;
     height: 3px;
-    background-color: #CC8B65;
+    background-color: #013328;;
     border-radius: 2px;
 }
 
@@ -857,7 +855,7 @@ width:400px;
     height: 500px;
     margin:0 150px;
     background: #FFF;
-    border:1px solid #CC8B65;
+    border:1px solid #013328;
     border-radius: 8px;
     margin:0 auto;
 }
@@ -873,7 +871,7 @@ width:400px;
     align-items: center;
 
     height: 70px;
-    background: #CC8B65;
+    background: #013328;
     border-bottom-right-radius: 8px ;
     border-bottom-left-radius: 8px;
 }
@@ -885,9 +883,9 @@ background-color: #FFF;
 margin:0 30px;
 }
 .testimonials-slider_item-client p{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
 font-style: normal;
-font-weight: 300;
+font-weight: 700;
 font-size: 22px;
 line-height: 125%;
 color: #FFFFFF;
@@ -896,7 +894,7 @@ color: #FFFFFF;
     display: flex;
     justify-content: center;
     height: 350px;
-    background-color: #FFFFFF;
+    background-color: #CC8B65;
 }
 
 .contacts-left {
@@ -929,9 +927,9 @@ color: #FFFFFF;
 }
 .contacts-right_container span,
 .contacts-right_container a{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     line-height: 154.5%;
     text-align: center;
@@ -949,9 +947,7 @@ color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #FFFFFF;
-    border-top: 2px solid #CC8B65;
-    margin-top: 30px;
+    background-color: #013328;
 }
 .footer-logo img{
     width: 250px;

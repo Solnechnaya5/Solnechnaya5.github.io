@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/null.css">
+    <link rel="stylesheet" href="/css/hystmodal.css">
+    <link rel="stylesheet" href="/css/hystmodal.min.css">
+    <title>Ideality</title>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <header class="header-page">
+            <div class="container">
+                <ul class="header-menu_socials">
+                    <li>
+                        <a href="tel:+"><img src="/img/icons/phone.png" alt="tel"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/img/icons/viber.png" alt="viber"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/img/icons/telegram.png" alt="telegram"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/img/icons/instagram.png" alt="instagram"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/img/icons/facebook.png" alt="facebook"></a>
+                    </li>
+                </ul>
+                <div class="header-logo">
+                    <a href="home_page.html"><img src="./img/logo2.png" alt="company logo"></a>
+                </div>
+
+                <ul class="header-menu_items">
+                    <li class="header-menu_item">
+                        <a href="#main">Головна</a>
+                    </li>
+                    <li class="header-menu_item">
+                        <div class="header-menu_drop-down">
+                            <p id="open-dropdown" onclick="openMenu()">Послуги</p>
+                            <ul class="drop-down_menu" id="drop-down_menu">
+                                <li><a href="#makeup">Make-up</a></li>
+                                <li><a href="#hair">Волосся</a></li>
+                                <li><a href="#eyes">Вії</a></li>
+                                <li><a href="#eyes">Брови</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header-menu_item">
+                        <a href="#footer">Контакти</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- burger-menu -->
+            <div class="burger-menu-icon">
+                <span></span>
+            </div>
+            <nav class="burger-menu">
+
+                <ul class="burger-menu__items">
+                    <li class="burger-menu__item"><a href="#">Послуги</a></li>
+                    <div class="burger-menu_container">
+                        <li class="burger-menu__item"><a href="#makeup">Make-up</a></li>
+                        <li class="burger-menu__item"><a href="#hair">Волосся</a></li>
+                        <li class="burger-menu__item"><a href="#eyes">Вії</a></li>
+                        <li class="burger-menu__item"><a href="#eyes">Брови</a></li>
+                    </div>
+                    <li class="burger-menu__item"><a href="#main">Контакти</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="main" class="top-screen">
+                <div class="top-screen_photos">
+                    <div class="top-foto_1"><img src="./img/photo-top1.jpg" alt="photo"></div>
+                    <div class="top-logo_container">
+                        <div class="top-logo"><img src="" alt="Ideality beauty studio"></div=>
+                        </div>
+                    </div>
+                    <div class="top-foto_2"><img src="./img/photo-top2.jpg" alt="photo"></div>
+                    <div class="top-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, obcaecati quas et debitis fuga consequatur magni ut mollitia quos voluptatibus dolor eum ipsam odio ducimus corporis consequuntur, fugiat hic repellendus.</p>
+                        <div class="button_brown">
+                            <a href="#">Записатися</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="top-screen_menu">
+                        <div class="top-screen_menu-icon">
+                            <a href=""><img src="#" alt="makeup"></a>
+                        </div>
+                        <div class="top-screen_menu-icon">
+                            <a href=""><img src="#" alt="hair"></a>
+                        </div>
+                        <div class="top-screen_menu-icon">
+                            <a href=""><img src="#" alt="lashes"></a>
+                        </div>
+                        <div class="top-screen_menu-icon">
+                            <a href=""><img src="" alt="brows"></a>
+                        </div>
+                    </div> -->
+            </section>
+            <!-- МАКІЯЖ -->
+            <section id="makeup" class="makeup">
+                <div class="makeup-left">
+                    <!-- <span class="makeup-left_background"></span> -->
+                    <div class="makeup_item1">
+                        <img src="./img/photo-top2.jpg" alt="">
+                    </div>
+                    <div class="makeup_prices">
+                        <div class="price-text">
+                            <h3>Макіяж</h3>
+                            <ul>
+                                <li class="price_item">
+                                    <div class="price_name">Експрес/<span>skin</span></div> 600грн</li>
+                                <li class="price_item">
+                                    <div class="price_name">Денний/<span>nude</span></div> 800грн</li>
+                                <li class="price_item">
+                                    <div class="price_name">Вечірнiй/<span>night</span></div> 1000грн</li>
+                            </ul>
+                        </div>
+                        <div class="button_brown">
+                            <a href="#">Записатися</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="makeup-right">
+                    <div class="makeup-right_background">
+                        <div class="makeup_item2">
+                            <img src="./img/photo-top2.jpg" alt="">
+                        </div>
+                        <div class="makeup_item3">
+                            <img src="./img/photo-top2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ВОЛОССЯ -->
+            <section id="hair" class="hair">
+                <div class="hair-item">
+                    <div class="hair-item_mini">
+                        <div class="hair-item-photo">
+                            <img src="./img/photo-top2.jpg" alt=""></div>
+                        <h5>Фарбування</h5>
+                        <div id="openBtn" class="hair-price button_brown">
+                            <a href="#" data-hystmodal="#myModal">Вартість</a>
+                        </div>
+                    </div>
+                    <div class="hystmodal" id="myModal" aria-hidden="true">
+                        <div class="hystmodal__wrap">
+                            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                                <div class="hair-modal">
+                                    <button data-hystclose class="hystmodal__close">
+                      <img src="design/img/icons/close-icon.png"></button>
+                                    <div class="hair-modal_content">
+                                        <div class="hair-modal_left">
+                                            <div class="hair-modal_left-photo">
+                                                <img src="./img/photo-top2.jpg" alt="photo">
+                                            </div>
+                                        </div>
+                                        <div class="hair-modal_right">
+                                            <div class="hair-modal_right-container">
+                                                <h2 class="price-h4">Прайc</h2>
+                                                <div class="hair-price_item">
+                                                    <h3>КОРІНЬ</h3>
+                                                    <p>від 950грн</p>
+                                                </div>
+                                                <div class="hair-price_item">
+                                                    <h3>КОРІНЬ<span>+тонування довжини</span></h3>
+                                                    <p>від 1500грн</p>
+                                                </div>
+                                                <h3 class="price-h3">Фарбування всієї довжини <br>(Однотонне)</h3>
+                                                <div class="hair-price_item">
+                                                    <h4>1 довжина</h4>
+                                                    <p>від 1300грн</p>
+                                                </div>
+                                                <div class="hair-price_item">
+                                                    <h4>2 довжина</h4>
+                                                    <p>від 1500грн</p>
+                                                </div>
+                                                <div class="hair-price_item">
+                                                    <h4>3 довжина</h4>
+                                                    <p>від 1800грн</p>
+                                                </div>
+
+                                                <div class="hair-price_item">
+                                                    <div class="hair-price_item-block">
+                                                        <h3>складні техніки</h3>
+                                                        <p>(аіртач, омбреб шатуш, балаяж)</p>
+                                                    </div>
+                                                    <p>від 3000грн</p>
+                                                </div>
+                                                <div class="hair-price_item">
+                                                    <h3>Контурінг </h3>
+                                                    <p>1500грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hair-item">
+                    <div class="hair-item_mini">
+                        <div class="hair-item-photo">
+                            <img src="./img/photo-top2.jpg" alt=""></div>
+                        <h5>Стрижки жіночі</h5>
+                        <div class="hair-price button_brown">
+                            <a href="#" id="openBtn" data-hystmodal="#myModal">Вартість</a>
+                        </div>
+                    </div>
+                    <div class="hystmodal" id="myModal" aria-hidden="true">
+                        <div class="hystmodal__wrap">
+                            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                                <div class="hair-modal">
+                                    <button data-hystclose class="hystmodal__close">
+                    <img src="design/img/icons/close-icon.png"></button>
+                                    <div class="hair-modal_left">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="hair-modal_right">
+                                        <h2 class="price">Прайc</h2>
+                                        <div class="hair-price_item">
+                                            <h3>Стрижка чубчика</h3>
+                                            <p>100-150грн</p>
+                                        </div>
+                                        <div class="hair-price_item">
+                                            <h3>Кінчики без миття*</span>
+                                            </h3>
+                                            <p>250-300грн</p>
+                                        </div>
+
+                                        <div class="hair-price_item">
+                                            <h3>Кінчики+<span>браш укладка</span></h3>
+                                            <p>350-400грн</p>
+                                        </div>
+                                        <div class="hair-price_item">
+                                            <h3>Модельні стрижки</h3>
+                                            <p>450-550грн</p>
+                                        </div>
+                                        <div class="hair-price_item">
+                                            <h4>Дитяча стрижка (до 8 років) </h4>
+                                            <p>250грн</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hair-item">
+                    <div class="hair-item_mini">
+                        <div class="hair-item-photo">
+                            <img src="./img/photo-top2.jpg" alt=""></div>
+                        <h5>Стрижки чоловічі</h5>
+                        <div class="hair-price button_brown">
+                            <a href="#" id="openBtn" data-hystmodal="#myModal">Вартість</a>
+                        </div>
+                    </div>
+                    <div class="hystmodal" id="myModal" aria-hidden="true">
+                        <div class="hystmodal__wrap">
+                            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                                <div class="hair-modal">
+                                    <button data-hystclose class="hystmodal__close">
+                  <img src="design/img/icons/close-icon.png"></button>
+                                    <div class="hair-modal_left">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="hair-modal_right">
+                                        <h2 class="price">Прайc</h2>
+                                        <div class="hair-price_item">
+                                            <h3>Модельна стрижка</h3>
+                                            <p>300грн</p>
+                                        </div>
+                                        <div class="hair-price_item">
+                                            <h3>Срижка бороди</span>
+                                            </h3>
+                                            <p>100грн</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hair-item">
+                    <div class="hair-item_mini">
+                        <div class="hair-item-photo">
+                            <img src="./img/photo-top2.jpg" alt=""></div>
+                        <h5>Укладки</h5>
+                        <div class="hair-price button_brown">
+                            <a href="#" id="openBtn" data-hystmodal="#myModal">Вартість</a>
+                        </div>
+                    </div>
+                    <div class="hystmodal" id="myModal" aria-hidden="true">
+                        <div class="hystmodal__wrap">
+                            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                                <div class="hair-modal">
+                                    <button data-hystclose class="hystmodal__close">
+                  <img src="design/img/icons/close-icon.png"></button>
+                                    <div class="hair-modal_left">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="hair-modal_right">
+                                        <h2 class="price">Прайc</h2>
+                                        <div class="hair-price_item">
+                                            <h3>Рівний браш</h3>
+                                            <p>350-400грн</p>
+                                        </div>
+                                        <div class="hair-price_item">
+                                            <h3>Браш накрутка</span>
+                                            </h3>
+                                            <p>450-750грн</p>
+                                        </div>
+
+                                        <div class="hair-price_item">
+                                            <h3>Гофре+вирівнювання</span>
+                                            </h3>
+                                            <p>400грн</p>
+                                        </div>
+                                        <div class="hair-price_item">
+                                            <h3>Плетіння</h3>
+                                            <p>300-950грн</p>
+                                        </div>
+                                        <div class="hair-price_item">
+                                            <h4>Накрутки (локони)</h4>
+                                            <p>550-850грн</p>
+                                        </div>
+                                        <div class="hair-price_item">
+                                            <h4>Афролокони</h4>
+                                            <p>600-950грн</p>
+                                        </div>
+                                        <div class="hair-price_item">
+                                            <h4>Вечірнi зачіски</h4>
+                                            <p>650-1000грн</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hair-item">
+                    <div class="hair-item_mini">
+                        <div class="hair-item-photo">
+                            <img src="./img/photo-top2.jpg" alt=""></div>
+                        <h5>Olaplex процедури</h5>
+                        <div class="hair-price button_brown">
+                            <a href="#" id="openBtn" data-hystmodal="#myModal">Вартість</a>
+                        </div>
+                    </div>
+                    <div class="hystmodal" id="myModal" aria-hidden="true">
+                        <div class="hystmodal__wrap">
+                            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                                <div class="hair-modal">
+                                    <button data-hystclose class="hystmodal__close">
+                <img src="design/img/icons/close-icon.png"></button>
+                                    <div class="hair-modal_left">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="hair-modal_right">
+                                        <h2 class="price">Прайc</h2>
+                                        <div class="hair-price_item">
+                                            <h3>Базовий догляд <span>(1-1.5 год)</span></h3>
+                                            <p>від 750грн</p>
+                                        </div>
+                                        <div class="hair-price_item">
+                                            <h3>Активне відновлення<span>(2-2.5 год)</span>
+                                            </h3>
+                                            <p>від 1500грн</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- БРОВИ ВІЇ -->
+            <setion id="eyes" class="eyes">
+                <div class="eyes-item">
+                    <div class="eyes-left"><img src="/img/photo-top2.jpg" alt="lashes pic"></div>
+                    <div class="eyes-center">
+                        <div class="eyes-center_container">
+                            <h5> Процедури для вій </h5>
+                            <div class="eyes-center_item">
+                                <h6>Ламінування вій</h6>
+                                <p>850грн</p>
+                            </div>
+                            <div class="eyes-center_item">
+                                <h6>Фарбування вій</h6>
+                                <p>150грн</p>
+                            </div>
+                            <h5> Процедури для брів </h5>
+                            <div class="eyes-center_item">
+                                <h6>Дизайн брів</h6>
+                                <p>200грн</p>
+                            </div>
+                            <div class="eyes-center_item">
+                                <h6>Дизайн+фарбування</h6>
+                                <p>300грн</p>
+                            </div>
+                            <div class="eyes-center_item">
+                                <h6>ДУ брів</h6>
+                                <p>650грн</p>
+                            </div>
+                            <div class="eyes-center_item">
+                                <h6>ДУ комплекс</h6>
+                                <p>850грн</p>
+                            </div>
+
+                        </div>
+                        <div class="button_brown">
+                            <a href="#">Записатися</a>
+                        </div>
+                    </div>
+                    <div class="eyes-right"><img src="/img/photo-top2.jpg" alt="lashes pic"></div>
+                </div>
+            </setion>
+            <!-- НАВЧАННЯ -->
+            <scction class="study">
+                <div class="study-container">
+                    <div class="study-left">
+                        <h2>Навчання візажу для себе</h2>
+                        <!-- <span class="makeup-left_background"></span> -->
+                        <div class="study_item1">
+                            <img src="./img/photo-top2.jpg" alt="">
+                        </div>
+                        <!-- <span class="study-bottom_background"></span> -->
+
+                    </div>
+                    <div class="study-right">
+
+                        <div class="study_item2">
+                            <img src="./img/photo-top2.jpg" alt="pic">
+                        </div>
+                        <div class="study_prices">
+                            <div class="price-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus molestias, dolore minus, fugiat similique fuga incidunt in praesentium ipsam sequi quia labore explicabo libero maxime doloremque odit ad laudantium!</p>
+                                <ul>
+                                    <li class="price_item">
+                                        <div class="price_name">Ціна</div> 00000грн</li>
+                                    <!-- <li class="price_item">
+                                        <div class="price_name">Денний/<span>nude</span></div> 800грн</li>
+                                    <li class="price_item">
+                                        <div class="price_name">Вечірнiй/<span>night</span></div> 1000грн</li> -->
+                                </ul>
+                            </div>
+                            <div class="button_brown">
+                                <a href="#">Записатися</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </scction>
+        </main>
+
+        <footer id="footer" class="footer">
+            <div class="footer_body">
+                <div class="footer-contacts_address">
+                    <div class="footer-contacts_address-text">
+                        Для запису на процедури Ви можете скористатися будь-яким зручним способом для Вас
+                    </div>
+                    <div class="footer-contacts_tel">
+                        <a href="tel:+"><img src="/img/icons/phone-2.png" alt="tel">+3800000000</a>
+                    </div>
+                    <ul class="footer-contacts_social">
+                        <li>
+                            <a href="#"><img src="/img/icons/viber.png" alt="viber"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="/img/icons/telegram.png" alt="telegram"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="/img/icons/instagram.png" alt="instagram"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="/img/icons/facebook.png" alt="facebook"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.879801361389!2d30.621720350516934!3d50.387439199684636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c434fdecfb95%3A0x69a983c738a23dcf!2z0LLRg9C70LjRhtGPINCT0YDQuNCz0L7RgNGW0Y8g0JLQsNGJ0LXQvdC60LAsIDUsINCa0LjRl9CyLCDQo9C60YDQsNGX0L3QsCwgMDIwMDA!5e0!3m2!1suk!2sro!4v1664911519879!5m2!1suk!2sro"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+        </footer>
+        <div class="author"> Created by Sonyachna Yulia</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="/js/burger.js"></script>
+    <script src="./js/drop-down.js"></script>
+    <script src="./js/hystmodal.min.js"></script>
+    <script>
+        const myModal = new HystModal({
+            linkAttributeName: "data-hystmodal",
+        });
+    </script>
+</body>
+
+</html>
