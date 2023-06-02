@@ -12,54 +12,7 @@
 .burger-menu_container {
     margin-left: 30px;
 }
-.welcome{
-    height: calc(390px + (925 - 390)*((100vw - 320px) / (1920 - 320)));
 
-}
-.welcome-left {
-    width: calc(290px + (960 - 290)*((100vw - 320px) / (1920 - 320)));
-    height: calc(390px + (925 - 390)*((100vw - 320px) / (1920 - 320)));
-}
-
-.welcome-left_container {
-    width: 510px;
-    width: calc(290px + (510 - 290)*((100vw - 320px) / (1920 - 320)));
-    margin: 235px 0 235px 260px;
-    margin-top: calc(50px + (235 - 50)*((100vw - 320px) / (1920 - 320)));
-    margin-bottom: calc(50px + (235 - 50)*((100vw - 320px) / (1920 - 320)));
-    margin-left: calc(15px + (260 - 15)*((100vw - 320px) / (1920 - 320)));
-}
-
-.welcome-logo {
-    width: 250px;
-    margin-bottom: calc(30px + (50 - 30)*((100vw - 320px) / (1920 - 320)));
-}
-
-.welcome-text {
-    margin-bottom: calc(30px + (50 - 30)*((100vw - 320px) / (1920 - 320)));
-}
-
-.welcome-text h1 {
-    margin-bottom: calc(25px + (40 - 25)*((100vw - 320px) / (1920 - 320)));
-}
-
-.welcome-right {
-    width: calc(320px + (960 - 320)*((100vw - 320px) / (1920 - 320)));
-    height: calc(390px + (925 - 390)*((100vw - 320px) / (1920 - 320)));
-}
-
-.welcome-right_frame {
-    width: calc(250px + (450 - 250)*((100vw - 320px) / (1920 - 320)));
-    height: calc(250px + (700 - 250)*((100vw - 320px) / (1920 - 320)));
-    top: calc(50px + (100 - 50)*((100vw - 320px) / (1920 - 320)));
-}
-
-.welcome-right_photo {
-    width: calc(230px + (430 - 230)*((100vw - 320px) / (1920 - 320)));
-    height: calc(250px + (545 - 250)*((100vw - 320px) / (1920 - 320)));
-    top: calc(50px + (170 - 50)*((100vw - 320px) / (1920 - 320)));
-    right: calc(50px + (100 - 50)*((100vw - 320px) / (1920 - 320)));
-}
 .about-us {
     margin-bottom: calc(50px + (150 - 50)*((100vw - 320px) / (1920 - 320)));
     height: 925px;
@@ -84,11 +37,11 @@
     margin-bottom: 30px;
 }
 
-.about-us_title {
+/* .about-us_title {
     font-size: 45px;
     font-size: calc(30px + (45 - 30)*((100vw - 320px) / (1920 - 320)));
     margin-bottom: 30px;
-}
+} */
 .about-us_right {
     width: calc(320px + (960 - 320)*((100vw - 320px) / (1920 - 320)));
     height: calc(700px + (960 - 700)*((100vw - 320px) / (1920 - 320)));
@@ -290,73 +243,49 @@
         margin-left: 15px;
     }
 }
-@media only screen and (max-width: 1440px) {}
+@media only screen and (max-width: 1440px) {
+    .welcome-middle{
+    margin-bottom: calc(30px + (50 - 30)*((100vw - 600px) / (1440 - 600)));
+    padding-top:calc(30px + (50 - 30)*((100vw - 600px) / (1440 - 600)));
+    }
+    .welcome-middle_photo-1 {
+        width: calc(250px + (330 - 250)*((100vw - 600px) / (1440 - 600)));
+        height: calc(360px + (445 - 360)*((100vw - 600px) / (1440 - 600)));
+        margin-top: calc(30px + (50 - 30)*((100vw - 600px) / (1440 - 600)));
+        margin-bottom: calc(30px + (50 - 30)*((100vw - 600px) / (1440 - 600)));
+
+    }
+    .welcome-middle_photo-2 {
+       width: calc(280px + (430 - 280)*((100vw - 600px) / (1440 - 600)));
+        height: calc(490px + (545 - 490)*((100vw - 600px) / (1440 - 600)));
+        margin-left: calc(30px + (50 - 30)*((100vw - 600px) / (1440 - 600)));
+        margin-right: calc(30px + (50 - 30)*((100vw - 600px) / (1440 - 600)));
+        margin-bottom: calc(30px + (50 - 30)*((100vw - 600px) / (1440 - 600)));
+    }
+    .welcome-middle_photo-text{
+        width: calc(290px + (350 - 290)*((100vw - 600px) / (1440 - 600)));
+        height: calc(100px + (150 - 100)*((100vw - 600px) / (1440 - 600)));
+    }
+}
 
 @media only screen and (max-width: 1320px) {}
 
 @media (max-width: 1280px) {
-    .welcome-left_container{
-        margin-left: calc(15px + (100 - 15)*((100vw - 320px) / (1280 - 320)));
-
-    }
+   
+   
+   
 }
 
 @media only screen and (max-width: 1024px) {
-    .welcome{
-        flex-direction: column;
-        height: auto;
+    .welcome-middle_photo-1 {
+       display: none;
     }
-    .welcome-left{
-        order: 2;
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
+    .welcome-middle_photo-2 {
+       width: calc(300px + (430 - 300)*((100vw - 600px) / (1440 - 600)));
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: calc(30px + (50 - 30)*((100vw - 600px) / (1440 - 600)));
     }
-    .welcome-left_container{
-        margin: 50px 0;
-    }
-
-    .welcome-logo{
-        width: 404px;
-        width: calc(290px + (404 - 290)*((100vw - 320px) / (1024 - 320)));
-    }
-    .welcome-logo img{
-        width: 100%;
-    }
-    .welcome-text{
-        text-align: center;
-    }
-    .welcome-button{
-        display: flex;
-        justify-content: center;
-    }
-    .welcome-right {
-        /* width: calc(320px + (960 - 320)*((100vw - 320px) / (1024 - 320))); */
-        width: 100%;
-        height: calc(390px + (925 - 390)*((100vw - 320px) / (1024 - 320)));
-      }
-      .welcome-right_frame {
-        width: calc(250px + (600 - 250)*((100vw - 320px) / (1024 - 320)));
-        height: calc(250px + (700 - 250)*((100vw - 320px) / (1024 - 320)));
-        top: calc(50px + (100 - 50)*((100vw - 320px) / (1024 - 320)));
-      }
-      .welcome-right_photo {
-        width: calc(230px + (430 - 230)*((100vw - 320px) / (1024 - 320)));
-        height: calc(250px + (545 - 250)*((100vw - 320px) / (1024 - 320)));
-        top: calc(50px + (170 - 50)*((100vw - 320px) / (1024 - 320)));
-        right: 0;
-        margin-left: 50px;
-      }
-    /* .gallery-slider_photo.slick-slide{
-        width: calc(250px + (450 - 250)*((100vw - 320px) / (1024 - 320)));
-      height: calc(400px + (600 - 400)*((100vw - 320px) / (1024 - 320)));
-    
-    }
-    .gallery-slider_photo {
-        width: calc(250px + (450 - 250)*((100vw - 320px) / (1024 - 320)));
-      height: calc(400px + (600 - 400)*((100vw - 320px) / (1024 - 320)));
-    } */
     .about-us_title{
         line-height: 150%;
     }
@@ -543,4 +472,8 @@ margin-left: 15px;
 
 }
 
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 320px) {
+    .welcome-middle_photo-2{
+        width:320px;
+    }
+}

@@ -1,4 +1,4 @@
- let icon = document.querySelectorAll(".price-icon");
+ let icon = document.querySelectorAll(".price-icons_item");
     let block = document.querySelectorAll(".prices-block");
     function removeActiveClass() {
   icon.forEach((icon) => icon.classList.remove('icon-active'));
@@ -82,5 +82,6 @@ let buttonStudy = document.querySelectorAll(".prices-block_item-study");
             removeActiveClassBrows();
             buttonBrows[i].classList.add('li_active');
             priceListBrows[i].classList.add("prices-block_right-active");
+         
 }
 }
